@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ваше имя или название компании</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.jpg" alt="Ваш логотип">
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">Обо мне/О нас</a></li>
+                <li><a href="#services">Услуги</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h1>Обо мне/О нас</h1>
+            <p>Здесь вы можете написать немного о себе или о вашей компании.</p>
+        </section>
+
+        <section id="services">
+            <h1>Услуги</h1>
+            <p>Опишите услуги, которые вы предоставляете.</p>
+        </section>
+
+        <section id="contact">
+            <h1>Контакты</h1>
+            <p>Укажите, как с вами можно связаться.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© Ваше имя или название компании, год</p>
+    </footer>
+</body>
+
+</html>
